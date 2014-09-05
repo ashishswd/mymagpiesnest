@@ -1,0 +1,588 @@
+* 969e9aa UPD: mymagpie plugin to version 1.2.2
+*   5d4cb88 FIX: conflicts
+|\  
+| *   a0e9ee8 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * 5a421c2 Updated motopress-content-editor
+| * | 5015406 UPD: screenshot.psd
+| |/  
+| * 68b8eeb Added default value for sl_pause_on_hover option
+| * f73f6ae Removed deprecated in wordpress constants
+| * 820af13 Wrapped text in GetText call
+| *   495673e Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * a3bbff4 ADD: fadeout effect for invalid tip to contact form field
+| * | 80510a3 Removed zip-archive with contact-form-7 plugin, because now it is installed from wordpress.org repository
+| * | 0821ada Updated TGM-Plugin-Activation class
+| |/  
+| * 2d43ca4 upd: stickUp.js
+| * 67bcd8a upd:css isStuck class
+| * 2c9b7d6 FIX: stickUp plugin
+| * 64f18be Added a misc style
+| * 5d17136 Updated mymagpie-plugin
+| * 972c32f Added email custom field to the Team and Testimonail metabox
+| * d85605a Fixed lightbox in portfolio slideshow
+| * 9fcbc32 Updated mymagpie-plugin
+| * daab06b Added unique prefix to the functions
+| * 192e061 Added style for <br> tag inner .row
+| * 69f95ad Set dashicons for custom post type
+| * d8733cf Fixed enqueue script for Gallery-format post
+| * f3c0bbe Fixed localization for stickup_menu option
+| * 4874696 Added default value for stickup_menu. Set when option are desable.
+| * 5ee3ca6 ADD: new option Gallery-format post portfolio layout
+| *   feff947 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * 69caee8 https://github.com/MymagpieFramework/MymagpieFramework/issues/16
+| | * 9daa228 https://github.com/MymagpieFramework/MymagpieFramework/issues/11
+| * | 1e02ca6 ADD: new option Gallery-format post portfolio layout
+| |/  
+| * 6104bb8 ADD: pause on slider hover option
+| * 2ee014d ADD: filter to stickmenu selector
+| * 099a122 UPD: post_meta_display option
+| * 531d932 UPD: change default slider effect
+| * 4365cd7 ADD: option meta display, UPD: blog page
+| *   1b57353 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * d24f036 Updated mymagpie-plugin
+| * | 952c5ee UPD: blog page? singlepost page
+| |/  
+| * 2cc597b UDP: check device for stickUp menu
+| * 469e33c Updated mymagpie-plugin
+| * fe8cc80 UPD: jQuery('#wpadminbar')
+| * e7881be hotfix add add_filter( 'the_excerpt', 'do_shortcode' );
+* |   e165f88 Merge pull request #8 from lemonthirst/master
+|\ \  
+| * | 9c62f81 fix bug documentation
+* | | c7f8e1f ADD: filter to stickmenu selector
+* | | f6fcf65 Updated mymagpie-plugin
+* | |   3ca7718 Merge branch 'master' of https://github.com/MymagpieFramework/MymagpieFramework
+|\ \ \  
+| * | | 09c6ebe UDP: check device for stickUp menu
+* | | | 28bd8ba Updated mymagpie-plugin
+|/ / /  
+* | | ef77fa8 Updated mymagpie-plugin
+* | | e0313f8 UPD: jQuery('#wpadminbar')
+* | | aa95c47 hotfix add add_filter( 'the_excerpt', 'do_shortcode' );
+* | | 9ca3698 UPD: modified readme
+* | |   bc19f7a Fixed after branch's merge
+|\ \ \  
+| |/ /  
+|/| /   
+| |/    
+| * e9621d1 Version bump to 3.1.3
+| * 36bee1f Updated mymagpie-pugin to version 1.2.1
+| * 34ea33f Added rtl-language support
+| * 4a3182c Updated audio/video library - jplayer
+| * be7f640 Added new options: order & orderby for slider posts
+| * 518452b Added new options: order & orderby for portfolio posts and filter
+| *   a42c300 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * e34d421 ADD: device.js
+| | * 3742c59 replaced include tmstickup.js
+| | * ff74c2e ADD: tmstickup.js
+| * | 303395c Added MotoPress Content Editor plugin as the following recommended plugin
+| |/  
+| * 884bc62 ADD: stickup option
+| * 5945a4d Updated mymagpie-plugin: Fixed outputing notice
+| * 24d6bc6 Fixed API_URL constant
+* | 07fb7c1 Updated mymagpie-plugin: Fixed outputing notice
+* | bd5bc78 Fixed API_URL constant
+* | 6ef0c4d Restored required mymagpie-plugin version
+* |   67ed5b1 Version bump to 3.1.2
+|\ \  
+| |/  
+| * eb19b6e Changed version to 3.1.2 and replace screenshot.png
+| * 099e8b3 Updated mymagpie-plugin to version 1.2
+| * 273f05a Improved wpml-plugin compatibility for Mymagpie Options
+| * 88b41a6 Fixed bug with portfolio gallery in IE
+| * b660fa6 Fixed twitter share button
+| * 658bd24 Fixed issue with french translation in plugin
+| * 1996489 change upload images logic in framework options
+| *   2940632 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * f152157 hotfix issue - https://github.com/MymagpieFramework/MymagpieFramework/issues/5
+| | * edc0eb9 Removed style-switcher
+| * | 37381b6 fix password
+| |/  
+* |   d02152a Merge branch 'master' of https://github.com/MymagpieFramework/MymagpieFramework
+|\ \  
+| * \   b5cd7dd Merge branch 'master' of https://github.com/MymagpieFramework/MymagpieFramework
+| |\ \  
+| * | | cebc4f5 Change aq resizer and update plugin
+* | | | e69b70f Fixed bug with portfolio gallery in IE
+| |/ /  
+|/| |   
+* | | f4e3f5a hotfix issue - https://github.com/MymagpieFramework/MymagpieFramework/issues/5
+* | | 91c0ab4 Removed style-switcher
+* | |   6a116f6 Merge branch 'develop'
+|\ \ \  
+| |/ /  
+|/| /   
+| |/    
+| * 3e790fc Change version in style.css and replase screehshot
+| *   6fa6282 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | *   a6e0ff0 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| | |\  
+| | | * 5b2709f Changed plugin version
+| | * | 8971668 3.1.1 changelog
+| | |/  
+| * | 3359b25 Changed plugin
+| |/  
+| * 1384792 Update plugins
+| * a6cf37c Change tag filter
+| *   9470308 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * 3a258ac Correction for commit #cf8fd0722e
+| | * cce8e2a Removed Blog Layout option and Added output favicon on Style Switcher preview
+| | * cf8fd07 Improvement wpml-compatibility. Added support for Chinese (Simplified)/Chinese (Traditional) and Portuguese (Portugal)/Portuguese (Brazil)
+| | * 9e4be2a Bug-fix output pagination on archive, category, tag and search pages
+| * | eb7c9e2 Change languages files, add migrate js
+| |/  
+| *   ce193d0 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | *   91d1d45 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| | |\  
+| | * | 571104e Some small fix for style-switcher
+| * | | 5dc844a posts in slider sorted by date
+| | |/  
+| |/|   
+| * |   0c4090a Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \  
+| | |/  
+| | *   d4ae812 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| | |\  
+| | * | 11c28e7 Some small fix for style-switcher
+| * | | ed7d71c Changes all link on CDN forma, Changes logic generate robot.txt fnd sitemap.xml
+| | |/  
+| |/|   
+| * | 3d4c16c fixed mobile menu in ie9
+| |/  
+| * 53401cd Add loading on the change option in style switcher
+| * 6eb10b1 Fixed Layout Style option
+| * 01a1c40 Update mymagpie-plugin
+| *   cba293e Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| | * 14be25d Add hash filter for portfolio and change filter function in admin panel for portfolio
+| | * 30e789a Plugin update
+| * | 93c1949 Improve for Style Switcher
+| * | 34bd1fe Add new feature: style switcher
+| |/  
+| * f6e17ab update export logic in plugin function
+| * ffe9b04 Update plugin files
+| * b77bc75 Update Plugin, change export function
+| * a88d62b Update function in mymagpie plugin
+| * b7169b0 change prev commit
+| * 8cf5b01 update plugin
+* | 7319f2a add migrate js
+* | 7bb498d fixed mobile menu in ie9
+* | 9a8d667 Update plufin
+* | 92eaad3 Plugin update
+* | e8a6b47 update export logic in plugin function
+* | b7abbab Update plugin files
+* | 91c1ca5 Update Plugin, change export function
+* | ba787a2 Update function in mymagpie plugin
+* | d5f6ddd update plugin
+|/  
+*   8030a47 Merge branch 'master' into develop
+|\  
+| * 5abc970 v3.1.0 changelog
+| *   2c07420 Fixed conflicts after merge branch develop to master
+| |\  
+| * | 948bf4e docs: styling readme
+| * | 2ad8ce4 docs: readme update
+| * | 9864faf docs: Replaced changelog with readme.md Added description
+| * | 7c76638 docs: added changelog.md
+* | |   dcaac12 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \  
+| | |/  
+| |/|   
+| * | 26c2d46 Updated mymagpie-plugin archive
+* | | fe491ff Deleted Mymagpie Store
+|/ /  
+* | c53edae Update Mymagpie Plugin
+* | 5851d52 Added function for auto-setup mymagpie-plugin
+* | 1d10bd4 Moved the help tips from child theme in the framework
+* | d59f27b Change help text and update mymagpie plugin zip
+* | 17045f3 update mymagpie plugin
+* | 2e90964 Added auto-replace current Mymagpie Plugin on new version
+* |   9ed9472 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \  
+| * | 6359d5a removed wp_enqueue_script for ElastiSlide
+| * |   fad6422 Merge branch 'clean-less' into develop
+| |\ \  
+| | * | 8b31669 add including via func. wp_enqueue_style file main-style.css from child-theme
+* | | | 8734b00 change version and screen, add new mymagpie plugin
+* | | |   c3747ac fix merge conflict
+|\ \ \ \  
+| |/ / /  
+| * | | 6ba3277 remove cleaning up plugin directory after switch mymagpie themes
+| * | | bfe2d7c remove old logic for import/export
+* | | | a8d0556 add new options 'ingle portfolio layout'
+|/ / /  
+* | | 592e688 added processing multibyte string (support cyrillic)
+* | |   62ba5e2 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \  
+| |/ /  
+| * | 6b80ce3 Cut style for carousel shortcodes and remove some files (css/js/images)
+| * | 60f171a add comments ID attribute
+| |/  
+| * a35bfc9 hotfix: body font-style option
+| *   d6f7214 Merge branch 'develop'
+| |\  
+| | *   8aeea33 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| | |\  
+| * | \   5243eb7 Merge branch 'develop'
+| |\ \ \  
+| | |/ /  
+| | * | 4583ec0 change stylesheet and screenshot
+| * | |   7fd0f58 Merge branch 'develop'
+| |\ \ \  
+| | |/ /  
+| * | | a8ebba4 fix pagination on portfolio and testimonial page when they are set as front page
+* | | | a84d1f5 fixed filter on portfolio pages
+| |_|/  
+|/| |   
+* | |   3d7bb3f Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \  
+| | |/  
+| |/|   
+| * |   b9dfc87 fix conflict after pull from remote server
+| |\ \  
+| * | | d029ff3 fix pagination on portfolio and testimonial page when they are set as front page
+| | |/  
+| |/|   
+* | | 5469323 Fix portfolio loop
+| |/  
+|/|   
+* |   61c7e0d Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \  
+| * | 18294ef fix pagination on portfolio and testimonial page when they are set as front page
+| |/  
+| * 3e0076d fix Isotope gallery in IE10
+| * 998a1f3 hotfix: add in shortcodes function restoring global var $post
+| * dd99fa6 fix: output comment count in widget Mymagpie Recent Comment considering PHP >= v.5.4
+| *   a113fd2 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| * | 3ea1610 fix: output comment count for posts considering PHP >= v.5.4
+* | | 10a08f3 mymagpie framework compatibility wordpress 3.8
+| |/  
+|/|   
+* | de7243c fix shortcode icon
+|/  
+*   92cb8e7 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\  
+| * 27bfac1 change version in style.css and replace screenshot.png
+* | f6a4013 fix header
+|/  
+* 83e56a1 add plugin zip
+*   13e6e4e Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\  
+| *   5305eb4 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\  
+| * | 432ffff fix header-styling and main-layout options
+| * |   d81a85b Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \  
+| * | | c2f389d add filter to slider.php
+* | | | c631e80 Add plugin
+| |_|/  
+|/| |   
+* | | 89c5915 fix variable name
+* | |   70fdfea Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \  
+| | |/  
+| |/|   
+| * | bec45b6 Add filter for slider
+* | | 1cd4c3a Data management interface fixedData management interface fixed
+|/ /  
+* |   1d164d2 Fix conflict
+|\ \  
+| |/  
+| * 00e67f8 hotfix page-home.php
+| * 2075354 hotfix file update.php
+| * c016523 add filter to the static-nav holder
+| * aa0f731 change value for API_URL
+| * 006feb5 new feature: change layout class via filter
+| * bcab37e up contact-form-7 plugin
+| * bf21f02 change screenshot, stylesheet version and some small fix
+| * 438c222 fix: function for get theme version
+| *   9ad2149 Merge branch 'plugin-install' into develop
+| |\  
+| | * 54a0c7d add for the future unpackage and auto-activation mymagpie plugin
+| * | fd958b0 fix prev commit
+| * | 545bf47 fix for iPad3 (iOS7)
+| |/  
+| * 92c2786 fix after commit 2
+| *   aa6843b fix after merge
+| |\  
+| | * fa084fa improve: theme customizer
+| | * e000833 up Customizer and Localization spped
+| * |   d3b63cb fix conflit after merge
+| |\ \  
+| | * | 3562c8d speed up for localization
+| | |/  
+| * |   049fecd magre local develop with remote develop
+| |\ \  
+| * | | 1b869cb change function for output date
+| | |/  
+| |/|   
+| * |   22d74d5 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \  
+| * | | 09acc06 Fix shop kit titles.
+| * | | dc4c7da hotfix: change value for DETAILS_URL
+| * | | bd7e42c hotfix: inc max font-size/line-height for heading options
+| * | |   6d45f58 Merge branch 'develop'
+| |\ \ \  
+| * | | | af79d90 Accordion load fix
+| * | | | ef13450 Hot fix options in my comment widget.
+| * | | | 3f28533 Change vimeo protocol HTTP/1.0 on HTTP/1.1
+| * | | |   3b5a6cf Merge branch 'develop'
+| |\ \ \ \  
+| * | | | | 7589f0c Update readme.txt
+* | | | | | 0ecd188 fix prev commit
+* | | | | | 99855ce !!!Deleted shortcodes and widgets in wramework!!!
+| |_|_|_|/  
+|/| | | |   
+* | | | | 4e2b2c7 fix audio format post
+* | | | |   5aba5ef fix conflict
+|\ \ \ \ \  
+| | |_|_|/  
+| |/| | |   
+| * | | | 83b5211 Fixed update notice
+| * | | | e56cfcd Fixed update notice
+| * | | | 8c9b4f7 Fix shop kit titles.
+| * | | | d4c8752 change value for DETAILS_URL
+| * | | | 0d7ec1c improve: inc max font-size/line-htight for heading options
+| * | | | dc7c2b0 fix placeholder color in FF
+| * | | |   75a6af9 Merge branch 'header-img' into develop
+| |\ \ \ \  
+| | * | | | 20696df improve: replace option "header color" on "header background"
+| * | | | | 448fe79 fix styles for layout option
+| |/ / / /  
+| * | | | c8108d3 remove 'http:' in request URL to the GoogleWebFonts
+| * | | | f64ffcb add check for output tagline
+| * | | | 9ea3f8c improve breadcrumbs - set divider through :after pseudo element
+| * | | | f6ad3b0 improve the text version of the slider
+| * | | | 036c41d add new option for Fixed/Fullwidth layout
+| * | | | 40fbc99 correct style for thumbnail hover state on Portfolio pages
+| | |_|/  
+| |/| |   
+| * | | f09f8af change version in stylesheet and screenshot
+| * | | f0679b8 small fix custom fields (select) for blog's posts
+| * | |   bc2453d fix conflicts between 'up-localization' and 'develop'
+| |\ \ \  
+| | * | | 82587ff up localization
+| * | | |   c978dc1 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \ \ \  
+| | * | | | 6f1591b Update roundabout.php
+| * | | | | 7cbc40b up raundabout shortcode
+| |/ / / /  
+| * | | | faa5d18 fix slider
+| |/ / /  
+| * | |   73bbb7e Merge branch origin 'develop' into local 'develop'
+| |\ \ \  
+| | * | | b0cf877 Default thumbnails value false
+| | * | | 13d85ef add share buttons options, add related posts on single-portfolio page
+| | * | | e343a83 add new loader images
+| * | | | c8d3eb3 add registering isotope script on home and front pages
+| * | | | 7d183f9 fix raundabout shortcode
+| * | | | 630610e fix widgets import when .json file is empty
+| * | | | 4f1e948 correct some style for camera slider
+* | | | | e37871f Add new shortcode - Carousel OWL, The blog has two new layouts - Full width and Masonry
+| |/ / /  
+|/| | |   
+* | | | ffcc9cb add option Display share button in single post
+* | | |   1ddb702 fix conflicts
+|\ \ \ \  
+| |/ / /  
+| * | |   41c786c Merge branch 'fix-comment-widget' into develop
+| |\ \ \  
+| | * | | 5d759ae fix author's avatar in recent comment widget
+| |/ / /  
+| * | |   ed1aff0 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \ \  
+| * | | | 641b20e change link for documentation (depending on products - mymagpie, jigoshop, woocommerce)
+* | | | | b4e42fd add images for prev commit
+* | | | | 6b121bd change all loaders
+| |/ / /  
+|/| | |   
+* | | |   57d78ad Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \ \  
+| |/ / /  
+| * | |   132afed Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \ \  
+| | * | | 58fbfd9 Change vimeo protocol HTTP/1.0 on HTTP/1.1
+| | | |/  
+| | |/|   
+| * | | f0d143b add check for exists file
+| |/ /  
+| * |   05c16a6 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \  
+| * | | b5f87c0 small fix for slider (orderby = title)
+| | |/  
+| |/|   
+| * |   7400d99 release new version 2.3
+| |\ \  
+| * | | 14df9c8 Change get_the_time('F j, Y') on get_the_date()
+| * | | 1fceb7d Hot fix shortcode video preview
+| * | | 4c0468c Hot fix shortcode video preview
+| * | |   044dda9 Merge branch 'hotfix-2.2.1'
+| |\ \ \  
+* | | | | 17f1d89 Update languages file, fix less style, fix style for pages 404, FAQ, Add option read more buttons
+| |_|_|/  
+|/| | |   
+* | | |   9e32356 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \ \  
+| | |_|/  
+| |/| |   
+| * | |   3950864 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \ \  
+| * | | | 491354a change DETAILS_URL for new version
+| * | | | 16c976c small fix for lightbox in portfolio page
+| * | | | 56b771c fix active class in custom menu widget for portfolio pages
+* | | | |   8bf1865 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \ \ \  
+| | |/ / /  
+| |/| | |   
+| * | | | 6233f39 Fix support wordpress 3.2 +
+| * | | | eeafaa0 Fix support wordpress 3.2 +
+| |/ / /  
+| * | | dcdabe3 remove attributes from self-closing shortcodes
+| * | | bb83d04 in title_shortcode replace tag <hgroup> on <div> - http://html5doctor.com/howto-subheadings/
+| * | | 3d7cda8 correct Mymagpie Option panel's style
+| * | | 0db66ed add check for superfish init when fields in wp_options are empty
+| * | | 32be6b6 fix widget visibility
+| * | | e012a00 replace screenshot and change version on 2.3
+| * | | cfc4ec9 fix lightbox option in portfolio pages
+* | | | d78b996 chenge date format, chenge $ on jQuery in JavaScript
+|/ / /  
+* | | 9bde6ff Add new languages
+* | |   c0c9415 Fux conflict
+|\ \ \  
+| * \ \   3af1bfb Merge branch 'fix-usb' into develop
+| |\ \ \  
+| | * | | aa4416b add localization for some phrase in install process
+| | * | | b8eef2b add enable/disable lightbox option in portfolio pages
+| | * | | 6a8a183 add hook 'check_shop_activation'
+| | * | | 67cf8c1 add exclude Privacy Policy page in wp_list_pages function for main nav
+| | * | | 7933990 fix update_option for page_for_posts
+| | * | | ac87fe0 up CF7 for v.3.5.2
+| | * | | 96c4bca change screenshot and version in style.css + add hook on theme activation
+| | * | | 7c696af fix some bugs and improved usability in installing process
+| * | | | dbda680 replace % in 2/3/4 columns shortcodes name in visual editor
+| * | | | b92cbaa fix iframe for facebook like button
+| * | | | 766f4d8 fix getting URL to the media file in audio/video portfolio post format
+| * | | | ce98a03 correct some styles guided by Theme Unit Test
+| * | | | 290671c update aqua resizer
+| * | | |   13e745c Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \ \ \  
+| * | | | | 7ef2176 fix bug with selector '>' in Custom CSS option
+* | | | | | 73ad345 Add social networks
+| |/ / / /  
+|/| | | |   
+* | | | |   6aca042 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \ \ \  
+| |/ / / /  
+| * | | |   baf6ec5 Merge branch 'hotfix-video-prev' into develop
+| |\ \ \ \  
+| | * | | | 6e3e8c5 add include_once media.php
+| * | | | |   5a75340 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+| |\ \ \ \ \  
+| * \ \ \ \ \   48a3811 Merge branch 'fix-usb' into develop
+| |\ \ \ \ \ \  
+| | |_|/ / / /  
+| |/| | / / /   
+| | | |/ / /    
+| | |/| | |     
+| | * | | | 1b2a449 update cf7-plugin
+| | * | | | cbf94e6 add check before including lessphp library
+| | * | | | 4c6b3ca change button's text in Import Widget Page (show widget settings => next)
+| | * | | | b828f83 change button's text in help pointer (dismiss => close)
+| |/ / / /  
+* | | | | 1b91c5a add generate robot.txt, fix video preview shortcode, fix include fond
+| |/ / /  
+|/| | |   
+* | | | d8cc880 fix image size in team pages
+* | | |   cc8b90d Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \ \  
+| |/ / /  
+| * | |   95bc641 Merge branch 'fix-banner' into develop
+| |\ \ \  
+| | * | | 80e8af9 fix output notice for update mymagpie (from behaart)
+| | * | | a76ca17 improved getting path to banner's image
+| |/ / /  
+* | | | ab890a1 output content in FAQ pages
+* | | |   81a8682 Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \ \ \  
+| |/ / /  
+| * | |   6f2b854 Merge branch 'hotfix-2.2.1' into develop
+| |\ \ \  
+| | | |/  
+| | |/|   
+| | * | 6fb2e60 change style
+| | * | ed88358 change screenshot.php
+| | * | 4eda31e add prefix 'mymagpie' for function name: getPostView, setPostViews, getPostVoting
+| | * | da894dd fix bug with widget settings import in WP > 3.4
+| | |/  
+* | | 459e9e8 Fix prev commit
+* | | 00cb465 Added sitemap.xml generatior
+* | | 6525048 Added new shortcode sitemap
+|/ /  
+* |   14f4c0c Merge branch 'develop' of https://github.com/MymagpieFramework/MymagpieFramework into develop
+|\ \  
+| * | eeaab78 Fix title
+| |/  
+* |   2c80c30 Merge branch 'hotfix-image-php' into develop
+|\ \  
+| |/  
+|/|   
+| * 84f1c53 fix output thumbnail for image post format
+|/  
+*   591c4f3 merge branch v.2.2 to master
+|\  
+| * 2886eb6 change including prettyphoto's script ans style
+| * 20d1c34 change font-awesome's version
+| * 570c16e change .gitignore file
+| * 6244919 change .gitignore file
+| * 4460200 remove wd. Permalink from attr in post format title
+| * 3672e64 change screenshot file
+| * 841f5a9 sort portfolio filter & fix breadcrumbs for attachments
+| * 0872a0d fix prev commit
+| * 39c2335 WP 3.6 compatibility
+| * 960d513 Correct prev commit
+| * b33ecc7 add function get_post_metadata()
+| * 3cc90f6 add full wpml-compatibility
+| *   6b0e7d0 Merge branch 'v.2.2' of https://github.com/MymagpieFramework/MymagpieFramework into v.2.2
+| |\  
+| | * fa43360 logo image changed
+| | * 1fab7d0 Update readme.txt
+| * | 18d71c4 add nav holder in static-nav.php when pages output via wp_list_pages()
+| |/  
+| * e8edd21 change Version on 2.2
+| * 3ac6f11 change Version on 2.2
+* | d6176cd logo image changed
+* | c16a878 fix post-thumb.php from behaart
+* | 99441a4 removed check is_page_template('home-page.php') in theme-scripts.php
+* | 28f754c fix shortcode_video_preview
+* | f21721f add .gitignore file
+* | 07e5ece fix style for flick widget
+|/  
+* 461563a fix output category for $type==post
+*   3e493df merge branch v.2.1
+|\  
+| * ed0c316 push MymagpieFramework v.2.1 from SVN
+| * 2ebd9a6 push MymagpieFramework v.2.1 from SVN
+| * 3f61286 Update shortcodes.php
+| * 60e6d53 readme update
+| * 0d91390 test 2
+| * 1b81338 test
+| * 2abd484 v2.1 test
+| * d3512e7 v2.1
+| * 7df36b0 v2.1
+* | e5dde8d return to master MymagpieFramework v.2.0
+* | cb48f8b return accardion.php from MymagpieFramework v2.0
+* | cfb8a6b Добавление к предыдущему коммиту
+* | 3743a82 WPML + MagnificPopup
+|/  
+* f052752 Mymagpie Framework v.2.0
+* d38ce1a Initial commit
